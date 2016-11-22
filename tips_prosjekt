@@ -1,8 +1,18 @@
-for i in range(len(params)):
+#params = liste over alle parametre gitt i E.46. 
+#husk at lister kan inneholde baade funksjoner og verdier
+
+for i in range(len(params)): 
         if isinstance(params[i],(float,int)):
+        
             #exec utfoerer stringen som om vi kodet den direkte i programmet.
             #kjekt aa bruke hvis man ikke vil skrive saa mye i dette prosjektet.
+            
             exec('self.p%d = lambda t: params[%d]'%(i,i))
         elif callable(params[i]):
             exec('self.p%d = params[%d]'%(i,i))
+            
     #kan videre kalle paa self.p1, self.p2 osv. for aa regne SIZR
+    #hust at alle self.p-ene er funskjoner av t!
+    
+    #Feilmelding hvis man glemmer det: 
+    #TypeError: unsupported operand type(s) for (- eller *): 'function' and 'float'
