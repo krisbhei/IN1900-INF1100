@@ -1,0 +1,8 @@
+for i in range(len(params)):
+        if isinstance(params[i],(float,int)):
+            #exec utfoerer stringen som om vi kodet den direkte i programmet.
+            #kjekt aa bruke hvis man ikke vil skrive saa mye i dette prosjektet.
+            exec('self.p%d = lambda t: params[%d]'%(i,i))
+        elif callable(params[i]):
+            exec('self.p%d = params[%d]'%(i,i))
+    #kan videre kalle paa self.p1, self.p2 osv. for aa regne SIZR
