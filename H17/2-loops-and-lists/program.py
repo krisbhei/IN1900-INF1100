@@ -16,13 +16,13 @@ for i in range(N):
 
 print("liste4:",liste4)
 print("liste4[1]:",liste4[1])
-print("liste4[1][1]:",liste4[1][1])
+print("liste4[1][0]:",liste4[1][1])
 print("---")
 
 liste3 = [liste1,liste2]
 print("liste3:",liste3)
 print("liste3[1]:",liste3[1])
-print("liste3[1][1]:",liste3[1][1])
+print("liste3[1][0]:",liste3[1][1])
 print("---")
 
 # Henter ut ett og ett element fra liste1 og liste2
