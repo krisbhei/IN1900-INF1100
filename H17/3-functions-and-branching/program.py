@@ -19,7 +19,7 @@ def test_funksjon():
     assert test, "Forventet: %g, fikk: %g!"%(forventet,svar)
 
 test_funksjon() # Når alt stemmer, skal det ikke skrives ut noe i testfunksjonen.
-                # Husk å kalle på den!
+                # Husk å kalle på testfunksjonene i programmene dine!
 
 def funksjon2(linjer):
     # Funksjonen finner skjæringspunktet x mellom to linjer:
