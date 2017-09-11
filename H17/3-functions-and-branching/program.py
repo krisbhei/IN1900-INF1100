@@ -25,10 +25,8 @@ def funksjon2(linjer):
     # Funksjonen finner skjæringspunktet x mellom to linjer:
     # a1*x + b1 = a2*x + b2
 
-    # linjer[0] = (a1,b2)
-    # linjer[1] = (a2,b2)
-    linje1 = linjer[0]
-    linje2 = linjer[1]
+    linje1 = linjer[0] # henter ut (a1,b1)
+    linje2 = linjer[1] # henter ut (a2,b2)
 
     a1 = linje1[0]; b1 = linje1[1]
     a2 = linje2[0]; b2 = linje2[0]
