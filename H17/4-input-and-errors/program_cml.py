@@ -22,6 +22,9 @@ except IndexError:
 
     # Kan gjøres ved å f.eks sjekke lengde til sys.argv,
     # og be bruker om å taste inn verdi til de manglede
-    # størrelsene
+    # størrelsene:
+    if (len(sys.argv) == 1):
+		l = float(input("l = "))
+	b = float(input("b = "))
 
 A = l*b
