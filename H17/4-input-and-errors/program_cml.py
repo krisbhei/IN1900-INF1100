@@ -24,7 +24,7 @@ except IndexError:
     # og be bruker om å taste inn verdi til de manglede
     # størrelsene:
     if (len(sys.argv) == 1):
-		l = float(input("l = "))
-	b = float(input("b = "))
+	l = float(input("l = "))
+    b = float(input("b = "))
 
 A = l*b
