@@ -32,7 +32,7 @@ x2 = []
 infile = open("testfil2.dat","r")
 infile.readline()
 for line in infile:
-    x_values = line.split() # <- x_values er nå en liste av ord fra line
+    x_values = line.split() 
     for x_val in x_values:
         x2.append(float(x_val))
 
