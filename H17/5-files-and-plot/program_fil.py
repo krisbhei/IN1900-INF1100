@@ -1,7 +1,7 @@
 # Lage en fil:
 
 # 1) (man slipper å huske å lukke fila med with)
-x = [1,2,3,4]
+x = [1,3,2,4]
 with open("testfil1.dat","w") as outfile:
     outfile.write("x:\n")
     for x_val in x:
@@ -37,3 +37,4 @@ for line in infile:
         x2.append(float(x_val))
 
 print(x1,x2)
+print(sorted(x1)) # <- sortèr
