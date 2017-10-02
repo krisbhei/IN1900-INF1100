@@ -1,8 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def f(x):
+def f(x): 
     return np.sin(x + 3)
+
+# f_vec = np.vectorize(f) hvis if-tester skal funke på arrays
 
 n = 10000 # valg av antall punkter i intervallet har mye å si!
 x_small = np.linspace(1e-2,10,n)
