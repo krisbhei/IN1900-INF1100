@@ -13,4 +13,4 @@ En kan finne verdiene til H+ ved de ulike pH-verdiene ved å la programmet finne
 
 Verdiene for H+ som programmet ditt har regnet ut skal brukes sammen med K1 og K2 til å finne de andre andelene av løsningene (uttrykkene som står i oppgaven). 
 
-Det har også blitt lagt ut en beskjed på emnesiden om dette på [Piazza](https://piazza.com/class/j67xgsfd9dm5z?cid=115)
+Det har også blitt lagt ut en beskjed om dette på [Piazza](https://piazza.com/class/j67xgsfd9dm5z?cid=115)
