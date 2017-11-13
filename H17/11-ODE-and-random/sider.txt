@@ -1,0 +1,3 @@
+Definere problem-klasse: s.790
+Random-metoder: s.542
+ 
